@@ -1,0 +1,75 @@
+h1{
+color:cyan;
+text-align: center;
+background-color:greenyellow;
+}
+body{
+    
+    font-size: 30px;
+    font-family: 'Pattaya', sans-serif;}
+
+.menu{
+    display: flex;
+    justify-content: center;
+}
+.menu li{
+    list-style: none;
+    margin-left: 40px;
+}
+nav{
+    background-color: lightseagreen;
+}
+
+.imput_contacto{
+border: darkslategrey solid 4px ;
+    width: 50%;
+}
+
+form{
+    text-align: center;
+    width: 50%;
+}
+
+.sobre_mi {
+    align-self: flex-start;
+  }
+
+.padre{
+ display: flex;
+ justify-content: space-between;
+}
+.padre div{
+    width: 50%;
+}
+
+.personaje{
+    width: 25%;
+    text-align: center;
+    border: darkslategrey solid 3px; 
+   
+}
+.todos_los_personajes{
+    display: flex;
+    flex-wrap: wrap;
+}
+.bg-primary{
+    background-color: lightseagreen;
+}
+
+.bg-lightseagreen{
+        background-color:lightseagreen; 
+        height: 100px;
+        margin: 5px;
+}
+.fotos{
+    width: 30%;
+}
+.alto-carousel{
+    height: 700px;
+}
+.fotos2{
+    height: 200px;
+}
+.parrafo-descripcion{
+    height: 200px;
+}
